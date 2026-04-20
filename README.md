@@ -1,18 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Since you're working on a React-based e-commerce project, having a solid README.md is essential for showcasing your work. This template is tailored to the "Store" and "Cart" views you've built, focusing on the core functionality like the wishlist and shopping cart.
 
-Currently, two official plugins are available:
+E-Commerce Store
+A sleek, responsive e-commerce web application built with React and JavaScript. This project features a dynamic product catalog, a persistent shopping cart, and a wishlist system to enhance the user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+Product Catalog: Browse a wide range of products with high-quality images and descriptions.
 
-## React Compiler
+Search & Filter: Easily find products using the real-time search bar or by filtering by category.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Shopping Cart: Add or remove items from your cart with real-time total price calculation.
 
-Note: This will impact Vite dev & build performances.
+Wishlist: Save your favorite items for later viewing.
 
-## Expanding the ESLint configuration
+Responsive Design: Fully optimized for desktop, tablet, and mobile viewing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+Frontend: React.js
+
+Styling: CSS3 / Styled Components (or Tailwind CSS if applicable)
+
+State Management: React Hooks (useState, useEffect, useContext)
+src/
+├── components/     # Reusable UI components (Navbar, ProductCard, etc.)
+├── pages/          # Main views (Store, Cart, Wishlist)
+├── context/        # State management for Cart and Wishlist
+├── assets/         # Images and global styles
+└── App.js          # Main application routing
